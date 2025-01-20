@@ -24,7 +24,7 @@ function calculateTime()
   {
     sper+="0".repeat(leads-sper.length);
   }
-  pper.innerHTML = sper + "%";
+  pper.innerHTML = sper + "% of the day has passed";
   loadin.style.width = percentage + "%";
   
   setTimeout(calculateTime,0);

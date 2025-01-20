@@ -1,3 +1,8 @@
+body{
+    background-color: #FE8176;
+    color: #211;
+}
+
 .loadingbar{
     width:100%;
     height:20px;
@@ -32,7 +37,30 @@
 }
 
 .times{
-    color:#222;
     display: flex;
     justify-content: space-between;
+}
+
+.section-visual{
+    width:calc(100% - 20px);
+    background-color: #EE7166;
+    border: #211 solid 1px;
+    border-radius: 3px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.section-visual p{
+    margin-top: 2px;
+}
+
+#innertitle{
+    text-decoration-line:line-through;
+}
+.title{
+    margin-bottom:2px;
+}
+.subtitle{
+    margin-top:2px;
+    display: none;
 }

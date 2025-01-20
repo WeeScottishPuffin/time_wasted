@@ -7,42 +7,48 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Stop wasting time!</h1>
-    <p><span id="hour"></span>:<span id="minute"></span>:<span id="second"></span></p>
-    <div class="loadingbar">
-        <div class="notches">
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
-            <div class="notch"></div>
+    <h1 class="title" id="title"><span id="innertitle"></span><span id="start">Stop wasting time!</span></h1>
+    <h2 class="subtitle" id="subtitle">Start by taking a break</h2>
+    <p>Instead of focussing on what could have been (done), focus on what you still can do. Don't forget to take breaks and clear you head. Stressing over how much time you've wasted only enables counter-productive behavior. This site aims to demonstrate the importance of time and the effect of fear pertaining to the loss of productive time. You can see the day passing by the second, but that isn't important! Take some time to regain your composure, and in the mean time appreciate the limitedness of time.</p>
+    <div class="section-visual">
+        <p><b>A brief visualisation</b></p>
+        <p><span id="hour"></span>:<span id="minute"></span>:<span id="second"></span></p>
+        <div class="loadingbar">
+            <div class="notches">
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+            </div>
+            <div id="inner" class="loadinginner"><span class="percent" id="percent"></span></div>
         </div>
-        <div id="inner" class="loadinginner"><span class="percent" id="percent"></span></div>
-    </div>
-    <div class="times">
-        <p>0:00</p>
-        <p>23:59</p>
+        <div class="times">
+            <p>0:00</p>
+            <p>23:59</p>
+        </div>
     </div>
     <script src="time.js"></script>
+    <script src="title.js"></script>
 </body>
 </html>
