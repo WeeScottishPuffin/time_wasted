@@ -14,8 +14,8 @@ function start_title()                                                          
             title_obj.innerHTML = (i == title_text.length) ? "" : title_text.slice(-title_text.length + i);     //2nd span "start"
             inner_obj.innerHTML = title_text.slice(0,i);                                                        //1st span "innertitle"
         },50*i)                                                                                                 //
-        setTimeout(()=>{sub_obj.style.display = "block";},50*(title_text.length+5));                            //
+        setTimeout(()=>{sub_obj.style.display = "block";},50*(title_text.length+5));                            //SetTimeout to handle delay
     }                                                                                                           //
 }                                                                                                               //
                                                                                                                 //
-setTimeout(start_title,1500);                                                                                   //
+setTimeout(start_title,1000);                                                                                   //Run start_title function after 1.5s
